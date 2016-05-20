@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ED9019053BDC1B8A5ABC1C9AD1AE3365E1E0B577",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ED9019053BDC1B8A5ABC1C9AD1AE3365E1E0B577" : 0,
+    "2C9199B15648F35EE009A66F498A00E24353016B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82584369-172E-4176-A451-1E647F9B25E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ED9019053BDC1B8A5ABC1C9AD1AE3365E1E0B577" : "Word%20Search\/",
+    "2C9199B15648F35EE009A66F498A00E24353016B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Word Search",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Word Search.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SandhuSukhjeet\/CalculatorAssignment1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C9199B15648F35EE009A66F498A00E24353016B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SandhuSukhjeet\/word_search.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED9019053BDC1B8A5ABC1C9AD1AE3365E1E0B577"
+    }
+  ]
+}

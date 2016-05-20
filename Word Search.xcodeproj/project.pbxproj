@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB430BB91CCCA68D00562F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB430BB81CCCA68D00562F58 /* AppDelegate.swift */; };
+		BB430BC01CCCA68D00562F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB430BBF1CCCA68D00562F58 /* Assets.xcassets */; };
+		BB430BC31CCCA68D00562F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB430BC11CCCA68D00562F58 /* LaunchScreen.storyboard */; };
+		BB430BCE1CCCA68D00562F58 /* Word_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB430BCD1CCCA68D00562F58 /* Word_SearchTests.swift */; };
+		BB430BD91CCCA68D00562F58 /* Word_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB430BD81CCCA68D00562F58 /* Word_SearchUITests.swift */; };
+		BB430BE71CCDD6D100562F58 /* WordSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB430BE61CCDD6D100562F58 /* WordSearchViewController.swift */; };
+		BB430BE91CCDFA0700562F58 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB430BE81CCDFA0700562F58 /* GameViewController.swift */; };
+		BB5DF3E31CE05C110085684D /* RecordsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DF3E21CE05C110085684D /* RecordsCollectionViewController.swift */; };
+		BB5F07981CD362CD00C3AED7 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F07971CD362CD00C3AED7 /* StringUtil.swift */; };
+		BBE5D3CB1CD756E700FE8C98 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5D3CA1CD756E700FE8C98 /* GameData.swift */; };
+		BBE8D3321CCE16F3009B79A6 /* category.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D3311CCE16F3009B79A6 /* category.plist */; };
+		BBE8D3341CCE179E009B79A6 /* Animals in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D3331CCE179E009B79A6 /* Animals */; };
+		BBE8D3361CCE17D8009B79A6 /* Body in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D3351CCE17D7009B79A6 /* Body */; };
+		BBE8D3381CCE17E4009B79A6 /* Cars in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D3371CCE17E4009B79A6 /* Cars */; };
+		BBE8D33A1CCE17F3009B79A6 /* Cities in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D3391CCE17F3009B79A6 /* Cities */; };
+		BBE8D33C1CCE1804009B79A6 /* Fruits in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D33B1CCE1804009B79A6 /* Fruits */; };
+		BBE8D33E1CCE1812009B79A6 /* Space in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D33D1CCE1812009B79A6 /* Space */; };
+		BBE8D3411CCE4C31009B79A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D33F1CCE4C31009B79A6 /* Main.storyboard */; };
+		BBE8D3451CCF4F46009B79A6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE8D3441CCF4F46009B79A6 /* Game.swift */; };
+		BBE8D3471CD09136009B79A6 /* records.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBE8D3461CD09136009B79A6 /* records.plist */; };
+		BBF3EC0C1CF5A7D600C426A4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3EC0B1CF5A7D600C426A4 /* Button.swift */; };
+		BBF3EC0E1CF5AE9300C426A4 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3EC0D1CF5AE9300C426A4 /* ColorUtil.swift */; };
+		BBF3EC181CF8122C00C426A4 /* Easy in Resources */ = {isa = PBXBuildFile; fileRef = BBF3EC171CF8122C00C426A4 /* Easy */; };
+		BBF3EC1A1CF8123600C426A4 /* Medium in Resources */ = {isa = PBXBuildFile; fileRef = BBF3EC191CF8123600C426A4 /* Medium */; };
+		BBF3EC1C1CF8123F00C426A4 /* Hard in Resources */ = {isa = PBXBuildFile; fileRef = BBF3EC1B1CF8123F00C426A4 /* Hard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB430BCA1CCCA68D00562F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB430BAD1CCCA68D00562F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB430BB41CCCA68D00562F58;
+			remoteInfo = "Word Search";
+		};
+		BB430BD51CCCA68D00562F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB430BAD1CCCA68D00562F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB430BB41CCCA68D00562F58;
+			remoteInfo = "Word Search";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB430BB51CCCA68D00562F58 /* Word Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB430BB81CCCA68D00562F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB430BBF1CCCA68D00562F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB430BC21CCCA68D00562F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB430BC41CCCA68D00562F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB430BC91CCCA68D00562F58 /* Word SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB430BCD1CCCA68D00562F58 /* Word_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_SearchTests.swift; sourceTree = "<group>"; };
+		BB430BCF1CCCA68D00562F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB430BD41CCCA68D00562F58 /* Word SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB430BD81CCCA68D00562F58 /* Word_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_SearchUITests.swift; sourceTree = "<group>"; };
+		BB430BDA1CCCA68D00562F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB430BE61CCDD6D100562F58 /* WordSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WordSearchViewController.swift; path = ../WordSearchViewController.swift; sourceTree = "<group>"; };
+		BB430BE81CCDFA0700562F58 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BB5DF3E21CE05C110085684D /* RecordsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsCollectionViewController.swift; sourceTree = "<group>"; };
+		BB5F07971CD362CD00C3AED7 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		BBE5D3CA1CD756E700FE8C98 /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		BBE8D3311CCE16F3009B79A6 /* category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = category.plist; path = ../category.plist; sourceTree = "<group>"; };
+		BBE8D3331CCE179E009B79A6 /* Animals */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Animals; path = ../Animals; sourceTree = "<group>"; };
+		BBE8D3351CCE17D7009B79A6 /* Body */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Body; sourceTree = "<group>"; };
+		BBE8D3371CCE17E4009B79A6 /* Cars */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cars; sourceTree = "<group>"; };
+		BBE8D3391CCE17F3009B79A6 /* Cities */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cities; sourceTree = "<group>"; };
+		BBE8D33B1CCE1804009B79A6 /* Fruits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fruits; sourceTree = "<group>"; };
+		BBE8D33D1CCE1812009B79A6 /* Space */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Space; sourceTree = "<group>"; };
+		BBE8D3401CCE4C31009B79A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBE8D3441CCF4F46009B79A6 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = ../Game.swift; sourceTree = "<group>"; };
+		BBE8D3461CD09136009B79A6 /* records.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = records.plist; sourceTree = "<group>"; };
+		BBF3EC0B1CF5A7D600C426A4 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		BBF3EC0D1CF5AE9300C426A4 /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		BBF3EC171CF8122C00C426A4 /* Easy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy; sourceTree = "<group>"; };
+		BBF3EC191CF8123600C426A4 /* Medium */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Medium; sourceTree = "<group>"; };
+		BBF3EC1B1CF8123F00C426A4 /* Hard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB430BB21CCCA68D00562F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB430BC61CCCA68D00562F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB430BD11CCCA68D00562F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB430BAC1CCCA68D00562F58 = {
+			isa = PBXGroup;
+			children = (
+				BB430BB71CCCA68D00562F58 /* Word Search */,
+				BB430BCC1CCCA68D00562F58 /* Word SearchTests */,
+				BB430BD71CCCA68D00562F58 /* Word SearchUITests */,
+				BB430BB61CCCA68D00562F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB430BB61CCCA68D00562F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB430BB51CCCA68D00562F58 /* Word Search.app */,
+				BB430BC91CCCA68D00562F58 /* Word SearchTests.xctest */,
+				BB430BD41CCCA68D00562F58 /* Word SearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB430BB71CCCA68D00562F58 /* Word Search */ = {
+			isa = PBXGroup;
+			children = (
+				BB430BB81CCCA68D00562F58 /* AppDelegate.swift */,
+				BB430BE61CCDD6D100562F58 /* WordSearchViewController.swift */,
+				BB430BE81CCDFA0700562F58 /* GameViewController.swift */,
+				BBE8D3441CCF4F46009B79A6 /* Game.swift */,
+				BB5DF3E21CE05C110085684D /* RecordsCollectionViewController.swift */,
+				BBE5D3CA1CD756E700FE8C98 /* GameData.swift */,
+				BBE8D33F1CCE4C31009B79A6 /* Main.storyboard */,
+				BB430BBF1CCCA68D00562F58 /* Assets.xcassets */,
+				BB430BC11CCCA68D00562F58 /* LaunchScreen.storyboard */,
+				BB5F07961CD3629A00C3AED7 /* util */,
+				BBE8D3331CCE179E009B79A6 /* Animals */,
+				BBE8D3351CCE17D7009B79A6 /* Body */,
+				BBE8D3371CCE17E4009B79A6 /* Cars */,
+				BBE8D3391CCE17F3009B79A6 /* Cities */,
+				BBE8D33B1CCE1804009B79A6 /* Fruits */,
+				BBE8D33D1CCE1812009B79A6 /* Space */,
+				BBF3EC1B1CF8123F00C426A4 /* Hard */,
+				BBF3EC191CF8123600C426A4 /* Medium */,
+				BB430BC41CCCA68D00562F58 /* Info.plist */,
+				BBF3EC171CF8122C00C426A4 /* Easy */,
+				BBE8D3311CCE16F3009B79A6 /* category.plist */,
+				BBE8D3461CD09136009B79A6 /* records.plist */,
+			);
+			path = "Word Search";
+			sourceTree = "<group>";
+		};
+		BB430BCC1CCCA68D00562F58 /* Word SearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB430BCD1CCCA68D00562F58 /* Word_SearchTests.swift */,
+				BB430BCF1CCCA68D00562F58 /* Info.plist */,
+			);
+			path = "Word SearchTests";
+			sourceTree = "<group>";
+		};
+		BB430BD71CCCA68D00562F58 /* Word SearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB430BD81CCCA68D00562F58 /* Word_SearchUITests.swift */,
+				BB430BDA1CCCA68D00562F58 /* Info.plist */,
+			);
+			path = "Word SearchUITests";
+			sourceTree = "<group>";
+		};
+		BB5F07961CD3629A00C3AED7 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				BB5F07971CD362CD00C3AED7 /* StringUtil.swift */,
+				BBF3EC0D1CF5AE9300C426A4 /* ColorUtil.swift */,
+				BBF3EC0B1CF5A7D600C426A4 /* Button.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB430BB41CCCA68D00562F58 /* Word Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB430BDD1CCCA68D00562F58 /* Build configuration list for PBXNativeTarget "Word Search" */;
+			buildPhases = (
+				BB430BB11CCCA68D00562F58 /* Sources */,
+				BB430BB21CCCA68D00562F58 /* Frameworks */,
+				BB430BB31CCCA68D00562F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Search";
+			productName = "Word Search";
+			productReference = BB430BB51CCCA68D00562F58 /* Word Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB430BC81CCCA68D00562F58 /* Word SearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB430BE01CCCA68D00562F58 /* Build configuration list for PBXNativeTarget "Word SearchTests" */;
+			buildPhases = (
+				BB430BC51CCCA68D00562F58 /* Sources */,
+				BB430BC61CCCA68D00562F58 /* Frameworks */,
+				BB430BC71CCCA68D00562F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB430BCB1CCCA68D00562F58 /* PBXTargetDependency */,
+			);
+			name = "Word SearchTests";
+			productName = "Word SearchTests";
+			productReference = BB430BC91CCCA68D00562F58 /* Word SearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB430BD31CCCA68D00562F58 /* Word SearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB430BE31CCCA68D00562F58 /* Build configuration list for PBXNativeTarget "Word SearchUITests" */;
+			buildPhases = (
+				BB430BD01CCCA68D00562F58 /* Sources */,
+				BB430BD11CCCA68D00562F58 /* Frameworks */,
+				BB430BD21CCCA68D00562F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB430BD61CCCA68D00562F58 /* PBXTargetDependency */,
+			);
+			name = "Word SearchUITests";
+			productName = "Word SearchUITests";
+			productReference = BB430BD41CCCA68D00562F58 /* Word SearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB430BAD1CCCA68D00562F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "sukhjeet singh sandhu";
+				TargetAttributes = {
+					BB430BB41CCCA68D00562F58 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SGB5ZB5682;
+					};
+					BB430BC81CCCA68D00562F58 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SGB5ZB5682;
+						TestTargetID = BB430BB41CCCA68D00562F58;
+					};
+					BB430BD31CCCA68D00562F58 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SGB5ZB5682;
+						TestTargetID = BB430BB41CCCA68D00562F58;
+					};
+				};
+			};
+			buildConfigurationList = BB430BB01CCCA68D00562F58 /* Build configuration list for PBXProject "Word Search" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB430BAC1CCCA68D00562F58;
+			productRefGroup = BB430BB61CCCA68D00562F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB430BB41CCCA68D00562F58 /* Word Search */,
+				BB430BC81CCCA68D00562F58 /* Word SearchTests */,
+				BB430BD31CCCA68D00562F58 /* Word SearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB430BB31CCCA68D00562F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF3EC1A1CF8123600C426A4 /* Medium in Resources */,
+				BBF3EC1C1CF8123F00C426A4 /* Hard in Resources */,
+				BBE8D3341CCE179E009B79A6 /* Animals in Resources */,
+				BBE8D3411CCE4C31009B79A6 /* Main.storyboard in Resources */,
+				BBF3EC181CF8122C00C426A4 /* Easy in Resources */,
+				BBE8D3361CCE17D8009B79A6 /* Body in Resources */,
+				BBE8D3471CD09136009B79A6 /* records.plist in Resources */,
+				BBE8D3321CCE16F3009B79A6 /* category.plist in Resources */,
+				BBE8D33C1CCE1804009B79A6 /* Fruits in Resources */,
+				BB430BC31CCCA68D00562F58 /* LaunchScreen.storyboard in Resources */,
+				BB430BC01CCCA68D00562F58 /* Assets.xcassets in Resources */,
+				BBE8D33E1CCE1812009B79A6 /* Space in Resources */,
+				BBE8D33A1CCE17F3009B79A6 /* Cities in Resources */,
+				BBE8D3381CCE17E4009B79A6 /* Cars in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB430BC71CCCA68D00562F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB430BD21CCCA68D00562F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB430BB11CCCA68D00562F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF3EC0E1CF5AE9300C426A4 /* ColorUtil.swift in Sources */,
+				BB430BE71CCDD6D100562F58 /* WordSearchViewController.swift in Sources */,
+				BBE8D3451CCF4F46009B79A6 /* Game.swift in Sources */,
+				BB5DF3E31CE05C110085684D /* RecordsCollectionViewController.swift in Sources */,
+				BBF3EC0C1CF5A7D600C426A4 /* Button.swift in Sources */,
+				BB5F07981CD362CD00C3AED7 /* StringUtil.swift in Sources */,
+				BB430BE91CCDFA0700562F58 /* GameViewController.swift in Sources */,
+				BBE5D3CB1CD756E700FE8C98 /* GameData.swift in Sources */,
+				BB430BB91CCCA68D00562F58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB430BC51CCCA68D00562F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB430BCE1CCCA68D00562F58 /* Word_SearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB430BD01CCCA68D00562F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB430BD91CCCA68D00562F58 /* Word_SearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB430BCB1CCCA68D00562F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB430BB41CCCA68D00562F58 /* Word Search */;
+			targetProxy = BB430BCA1CCCA68D00562F58 /* PBXContainerItemProxy */;
+		};
+		BB430BD61CCCA68D00562F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB430BB41CCCA68D00562F58 /* Word Search */;
+			targetProxy = BB430BD51CCCA68D00562F58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB430BC11CCCA68D00562F58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB430BC21CCCA68D00562F58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BBE8D33F1CCE4C31009B79A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBE8D3401CCE4C31009B79A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB430BDB1CCCA68D00562F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB430BDC1CCCA68D00562F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB430BDE1CCCA68D00562F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Word Search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.surya-soft.calculator.Word-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB430BDF1CCCA68D00562F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Word Search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.surya-soft.calculator.Word-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB430BE11CCCA68D00562F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Word SearchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.surya-soft.calculator.Word-SearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Search.app/Word Search";
+			};
+			name = Debug;
+		};
+		BB430BE21CCCA68D00562F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Word SearchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.surya-soft.calculator.Word-SearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Search.app/Word Search";
+			};
+			name = Release;
+		};
+		BB430BE41CCCA68D00562F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Word SearchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.surya-soft.calculator.Word-SearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Word Search";
+			};
+			name = Debug;
+		};
+		BB430BE51CCCA68D00562F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Word SearchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.surya-soft.calculator.Word-SearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Word Search";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB430BB01CCCA68D00562F58 /* Build configuration list for PBXProject "Word Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB430BDB1CCCA68D00562F58 /* Debug */,
+				BB430BDC1CCCA68D00562F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB430BDD1CCCA68D00562F58 /* Build configuration list for PBXNativeTarget "Word Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB430BDE1CCCA68D00562F58 /* Debug */,
+				BB430BDF1CCCA68D00562F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB430BE01CCCA68D00562F58 /* Build configuration list for PBXNativeTarget "Word SearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB430BE11CCCA68D00562F58 /* Debug */,
+				BB430BE21CCCA68D00562F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB430BE31CCCA68D00562F58 /* Build configuration list for PBXNativeTarget "Word SearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB430BE41CCCA68D00562F58 /* Debug */,
+				BB430BE51CCCA68D00562F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB430BAD1CCCA68D00562F58 /* Project object */;
+}
